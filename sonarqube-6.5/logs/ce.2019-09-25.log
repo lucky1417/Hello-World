@@ -1,0 +1,24 @@
+2019.09.25 15:45:50 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2019.09.25 15:45:50 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2019.09.25 15:45:51 INFO  ce[][o.e.plugins] [Lucas Brand] modules [], plugins [], sites []
+2019.09.25 15:45:52 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2019.09.25 15:45:52 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2019.09.25 15:45:52 WARN  ce[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2019.09.25 15:45:52 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\JenkinsSoftwares\sonarqube-6.5
+2019.09.25 15:45:53 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2019.09.25 15:45:54 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Compute Engine tasks created before Fri Mar 29 15:45:54 IST 2019
+2019.09.25 15:45:54 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2019.09.25 17:53:00 INFO  ce[][o.s.p.StopWatcher] Stopping process
+2019.09.25 17:53:00 INFO  ce[][o.s.ce.app.CeServer] Compute Engine shutting down...
+2019.09.25 22:51:12 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2019.09.25 22:51:12 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2019.09.25 22:51:13 INFO  ce[][o.e.plugins] [Claire Voyant] modules [], plugins [], sites []
+2019.09.25 22:51:14 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2019.09.25 22:51:14 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2019.09.25 22:51:14 WARN  ce[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2019.09.25 22:51:15 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\JenkinsSoftwares\sonarqube-6.5
+2019.09.25 22:51:15 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2019.09.25 22:51:17 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Compute Engine tasks created before Fri Mar 29 22:51:17 IST 2019
+2019.09.25 22:51:17 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2019.09.25 22:55:52 INFO  ce[][o.s.p.StopWatcher] Stopping process
+2019.09.25 22:55:52 INFO  ce[][o.s.ce.app.CeServer] Compute Engine shutting down...

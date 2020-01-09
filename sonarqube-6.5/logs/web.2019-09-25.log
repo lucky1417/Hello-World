@@ -1,0 +1,106 @@
+2019.09.25 15:45:36 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2019.09.25 15:45:37 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2019.09.25 15:45:38 INFO  web[][o.e.plugins] [Man-Bull] modules [], plugins [], sites []
+2019.09.25 15:45:38 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2019.09.25 15:45:38 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 6.5.0.27846 / ef2ca5b33e5795b841d45e0b20fef3cb90391719
+2019.09.25 15:45:41 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2019.09.25 15:45:41 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: C:\JenkinsSoftwares\sonarqube-6.5\data
+2019.09.25 15:45:41 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2019.09.25 15:45:41 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2019.09.25 15:45:42 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\JenkinsSoftwares\sonarqube-6.5
+2019.09.25 15:45:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin C# / 5.10.1.1411 / 748a97f89a5327cbea5cfe1f8aebe87d073c74a0
+2019.09.25 15:45:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Flex / 2.3 / 79167f762219bea1fd181ff5ef6ca4b34abd1675
+2019.09.25 15:45:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Git / 1.2 / a713dd64daf8719ba4e7f551f9a1966c62690c17
+2019.09.25 15:45:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SVN / 1.5.0.715 / 0210a6f08400da8cab1a20e118ee3c97f8847ee4
+2019.09.25 15:45:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 3.1.1.5128 / 564d130c281685fde03e85964417158e32a17b2b
+2019.09.25 15:45:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 4.12.0.11033 / fa9fe66b0cb1b6ab8d7f341cc1f7908897a9cf33
+2019.09.25 15:45:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.10.0.2087 / b24a8fcb16d37cae2f8c6741141f4136c444851f
+2019.09.25 15:45:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.8.0.1496 / 3fe3bc4d0273a5721ea2fb368dc45b1bb82fede3
+2019.09.25 15:45:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.4.3.1027 / 39588245cecf538bb27be4e496ff303b0143d20b
+2019.09.25 15:45:43 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@1de7f9f [pattern=UrlPattern{inclusions=[/api/system/migrate_db/*, ...], exclusions=[/api/properties*, ...]}]
+2019.09.25 15:45:43 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2019.09.25 15:45:44 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2019.09.25 15:45:44 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2019.09.25 15:45:45 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2019.09.25 15:45:45 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2019.09.25 15:45:47 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2019.09.25 15:45:47 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2019.09.25 15:45:47 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile cs/Sonar way
+2019.09.25 15:45:48 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile java/Sonar way
+2019.09.25 15:45:48 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile flex/Sonar way
+2019.09.25 15:45:48 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile xml/Sonar way
+2019.09.25 15:45:48 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile py/Sonar way
+2019.09.25 15:45:48 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Sonar way
+2019.09.25 15:45:48 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/PSR-2
+2019.09.25 15:45:48 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Drupal
+2019.09.25 15:45:48 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2019.09.25 15:45:49 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2019.09.25 15:45:49 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2019.09.25 15:45:49 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2019.09.25 15:45:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@60fea2 [pattern=UrlPattern{inclusions=[/api/measures/component/*, ...], exclusions=[/api/properties*, ...]}]
+2019.09.25 15:45:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@ce502e [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2019.09.25 15:45:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@df8d48 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2019.09.25 15:45:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@1983bbe [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2019.09.25 15:45:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@2a2047 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2019.09.25 15:45:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@1febe00 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2019.09.25 15:45:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@4987e [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2019.09.25 15:45:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@e16491 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2019.09.25 15:45:49 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2019.09.25 15:45:49 INFO  web[][o.s.s.n.NotificationDaemon] Notification service stopped
+2019.09.25 15:45:49 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2019.09.25 17:53:02 INFO  web[][o.s.p.StopWatcher] Stopping process
+2019.09.25 17:53:02 INFO  web[][o.s.s.n.NotificationDaemon] Notification service stopped
+2019.09.25 17:53:02 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database stopped
+2019.09.25 22:50:55 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2019.09.25 22:50:56 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2019.09.25 22:50:58 INFO  web[][o.e.plugins] [Grenade] modules [], plugins [], sites []
+2019.09.25 22:50:59 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2019.09.25 22:50:59 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 6.5.0.27846 / ef2ca5b33e5795b841d45e0b20fef3cb90391719
+2019.09.25 22:50:59 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2019.09.25 22:50:59 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: C:\JenkinsSoftwares\sonarqube-6.5\data
+2019.09.25 22:50:59 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2019.09.25 22:51:00 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2019.09.25 22:51:01 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\JenkinsSoftwares\sonarqube-6.5
+2019.09.25 22:51:01 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin C# / 5.10.1.1411 / 748a97f89a5327cbea5cfe1f8aebe87d073c74a0
+2019.09.25 22:51:01 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Flex / 2.3 / 79167f762219bea1fd181ff5ef6ca4b34abd1675
+2019.09.25 22:51:01 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Git / 1.2 / a713dd64daf8719ba4e7f551f9a1966c62690c17
+2019.09.25 22:51:01 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SVN / 1.5.0.715 / 0210a6f08400da8cab1a20e118ee3c97f8847ee4
+2019.09.25 22:51:01 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 3.1.1.5128 / 564d130c281685fde03e85964417158e32a17b2b
+2019.09.25 22:51:01 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 4.12.0.11033 / fa9fe66b0cb1b6ab8d7f341cc1f7908897a9cf33
+2019.09.25 22:51:01 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.10.0.2087 / b24a8fcb16d37cae2f8c6741141f4136c444851f
+2019.09.25 22:51:01 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.8.0.1496 / 3fe3bc4d0273a5721ea2fb368dc45b1bb82fede3
+2019.09.25 22:51:01 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.4.3.1027 / 39588245cecf538bb27be4e496ff303b0143d20b
+2019.09.25 22:51:02 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@da2ca5 [pattern=UrlPattern{inclusions=[/api/system/migrate_db/*, ...], exclusions=[/api/properties*, ...]}]
+2019.09.25 22:51:02 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2019.09.25 22:51:04 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2019.09.25 22:51:04 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2019.09.25 22:51:05 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2019.09.25 22:51:05 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2019.09.25 22:51:08 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2019.09.25 22:51:08 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2019.09.25 22:51:08 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile cs/Sonar way
+2019.09.25 22:51:08 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile java/Sonar way
+2019.09.25 22:51:09 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile flex/Sonar way
+2019.09.25 22:51:09 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile xml/Sonar way
+2019.09.25 22:51:09 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile py/Sonar way
+2019.09.25 22:51:09 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Sonar way
+2019.09.25 22:51:09 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/PSR-2
+2019.09.25 22:51:09 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Drupal
+2019.09.25 22:51:09 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2019.09.25 22:51:09 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2019.09.25 22:51:09 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2019.09.25 22:51:09 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2019.09.25 22:51:09 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@15a352a [pattern=UrlPattern{inclusions=[/api/measures/component/*, ...], exclusions=[/api/properties*, ...]}]
+2019.09.25 22:51:09 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@ddf05d [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2019.09.25 22:51:09 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@280ba1 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2019.09.25 22:51:09 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@45225d [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2019.09.25 22:51:09 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@12c59d7 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2019.09.25 22:51:09 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@1303888 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2019.09.25 22:51:09 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@54986b [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2019.09.25 22:51:09 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@1dfad22 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2019.09.25 22:51:09 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2019.09.25 22:51:09 INFO  web[][o.s.s.n.NotificationDaemon] Notification service stopped
+2019.09.25 22:51:09 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2019.09.25 22:55:54 INFO  web[][o.s.p.StopWatcher] Stopping process
+2019.09.25 22:55:54 INFO  web[][o.s.s.n.NotificationDaemon] Notification service stopped
+2019.09.25 22:55:54 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database stopped

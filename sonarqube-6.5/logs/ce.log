@@ -1,0 +1,12 @@
+2020.01.09 15:15:48 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2020.01.09 15:15:48 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2020.01.09 15:15:48 INFO  ce[][o.e.plugins] [Chronos] modules [], plugins [], sites []
+2020.01.09 15:15:49 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2020.01.09 15:15:49 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2020.01.09 15:15:49 WARN  ce[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2020.01.09 15:15:50 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\Jenkins 9th Jan\sonarqube-6.5
+2020.01.09 15:15:50 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2020.01.09 15:15:54 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Compute Engine tasks created before Sat Jul 13 15:15:54 IST 2019
+2020.01.09 15:15:54 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2020.01.09 15:36:00 INFO  ce[AW-JxJI6yUNioB3C832o][o.s.c.t.CeWorkerImpl] Execute task | project=Hello | type=REPORT | id=AW-JxJI6yUNioB3C832o | submitter=admin
+2020.01.09 15:36:06 INFO  ce[AW-JxJI6yUNioB3C832o][o.s.c.t.CeWorkerImpl] Executed task | project=Hello | type=REPORT | id=AW-JxJI6yUNioB3C832o | submitter=admin | time=6552ms

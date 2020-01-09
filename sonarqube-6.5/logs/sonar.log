@@ -1,0 +1,278 @@
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+
+WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+          The file is located on the path at the following location but
+          could not be loaded:
+            C:\Java\sonarqube-6.5\bin\windows-x86-64\.\lib\wrapper.dll
+          Please verify that the file is readable by the current user
+          and that the file has not been corrupted in any way.
+          One common cause of this problem is running a 32-bit version
+          of the Wrapper with a 64-bit version of Java, or vica versa.
+          This is a 32-bit JVM.
+          Reported cause:
+            C:\Java\sonarqube-6.5\bin\windows-x86-64\lib\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+          System signals will not be handled correctly.
+
+2017.10.05 15:40:54 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Java\sonarqube-6.5\temp
+2017.10.05 15:40:55 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[es]: C:\Program Files (x86)\Java\jre1.8.0_144\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djna.nosys=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\Java\sonarqube-6.5\temp\sq-process180017633296299708properties
+2017.10.05 15:41:03 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2017.10.05 15:41:03 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[web]: C:\Program Files (x86)\Java\jre1.8.0_144\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Java\sonarqube-6.5\temp\sq-process667560093711116099properties
+2017.10.05 15:41:28 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2017.10.05 15:41:28 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[ce]: C:\Program Files (x86)\Java\jre1.8.0_144\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;./lib/ce/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Java\sonarqube-6.5\temp\sq-process3720175843762329130properties
+2017.10.05 15:41:32 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2017.10.05 15:41:32 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+
+WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+          The file is located on the path at the following location but
+          could not be loaded:
+            C:\Java\sonarqube-6.5\bin\windows-x86-64\.\lib\wrapper.dll
+          Please verify that the file is readable by the current user
+          and that the file has not been corrupted in any way.
+          One common cause of this problem is running a 32-bit version
+          of the Wrapper with a 64-bit version of Java, or vica versa.
+          This is a 32-bit JVM.
+          Reported cause:
+            C:\Java\sonarqube-6.5\bin\windows-x86-64\lib\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+          System signals will not be handled correctly.
+
+2017.10.06 11:21:11 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Java\sonarqube-6.5\temp
+2017.10.06 11:21:11 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[es]: C:\Program Files (x86)\Java\jre1.8.0_144\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djna.nosys=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\Java\sonarqube-6.5\temp\sq-process4582230736429081176properties
+2017.10.06 11:21:20 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2017.10.06 11:21:20 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[web]: C:\Program Files (x86)\Java\jre1.8.0_144\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Java\sonarqube-6.5\temp\sq-process4949025025576804728properties
+2017.10.06 11:21:34 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2017.10.06 11:21:34 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[ce]: C:\Program Files (x86)\Java\jre1.8.0_144\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;./lib/ce/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Java\sonarqube-6.5\temp\sq-process3711700516016103094properties
+2017.10.06 11:21:38 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2017.10.06 11:21:38 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+
+WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+          The file is located on the path at the following location but
+          could not be loaded:
+            C:\Java\sonarqube-6.5\bin\windows-x86-64\.\lib\wrapper.dll
+          Please verify that the file is readable by the current user
+          and that the file has not been corrupted in any way.
+          One common cause of this problem is running a 32-bit version
+          of the Wrapper with a 64-bit version of Java, or vica versa.
+          This is a 32-bit JVM.
+          Reported cause:
+            C:\Java\sonarqube-6.5\bin\windows-x86-64\lib\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+          System signals will not be handled correctly.
+
+2017.10.08 14:55:38 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Java\sonarqube-6.5\temp
+2017.10.08 14:55:38 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[es]: C:\Program Files (x86)\Java\jre1.8.0_144\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djna.nosys=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\Java\sonarqube-6.5\temp\sq-process2554936350131861977properties
+2017.10.08 14:55:49 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2017.10.08 14:55:49 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[web]: C:\Program Files (x86)\Java\jre1.8.0_144\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Java\sonarqube-6.5\temp\sq-process1307065925228163473properties
+2017.10.08 14:56:06 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2017.10.08 14:56:06 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[ce]: C:\Program Files (x86)\Java\jre1.8.0_144\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;./lib/ce/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Java\sonarqube-6.5\temp\sq-process8923565080706798449properties
+2017.10.08 14:56:12 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2017.10.08 14:56:12 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2017.10.11 20:06:59 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Java\sonarqube-6.5\temp
+
+WrapperSimpleApp: Encountered an error running main: java.nio.file.FileSystemException: C:\Java\sonarqube-6.5\temp\ce-exploded-plugins\csharp\META-INF\lib\commons-lang-2.6.jar: The process cannot access the file because it is being used by another process.
+
+java.nio.file.FileSystemException: C:\Java\sonarqube-6.5\temp\ce-exploded-plugins\csharp\META-INF\lib\commons-lang-2.6.jar: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:170)
+	at org.sonar.process.FileUtils2$DeleteRecursivelyFileVisitor.visitFile(FileUtils2.java:165)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.process.FileUtils2.deleteDirectoryImpl(FileUtils2.java:127)
+	at org.sonar.process.FileUtils2.deleteDirectory(FileUtils2.java:112)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:117)
+	at org.sonar.application.AppFileSystem$CleanTempDirFileVisitor.visitFile(AppFileSystem.java:101)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.application.AppFileSystem.createOrCleanTempDirectory(AppFileSystem.java:96)
+	at org.sonar.application.AppFileSystem.reset(AppFileSystem.java:62)
+	at org.sonar.application.App.start(App.java:53)
+	at org.sonar.application.App.main(App.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2017.10.27 16:13:14 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Java\sonarqube-6.5\temp
+2017.10.27 16:13:14 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[es]: C:\Program Files\Java\jdk1.8.0_144\jre\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djna.nosys=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\Java\sonarqube-6.5\temp\sq-process4991369007115053746properties
+2017.10.27 16:13:33 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2017.10.27 16:13:33 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[web]: C:\Program Files\Java\jdk1.8.0_144\jre\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Java\sonarqube-6.5\temp\sq-process649416681326687793properties
+2017.10.27 16:13:52 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2017.10.27 16:13:52 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[ce]: C:\Program Files\Java\jdk1.8.0_144\jre\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;./lib/ce/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Java\sonarqube-6.5\temp\sq-process4907068344046288202properties
+2017.10.27 16:13:59 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2017.10.27 16:13:59 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2017.10.30 16:21:04 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Java\sonarqube-6.5\temp
+2017.10.30 16:21:04 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[es]: C:\Program Files\Java\jre1.8.0_151\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djna.nosys=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\Java\sonarqube-6.5\temp\sq-process5236954673659352525properties
+2017.10.30 16:21:37 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2017.10.30 16:21:37 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[web]: C:\Program Files\Java\jre1.8.0_151\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Java\sonarqube-6.5\temp\sq-process1731721114996718053properties
+2017.10.30 16:22:01 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2017.10.30 16:22:01 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[ce]: C:\Program Files\Java\jre1.8.0_151\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;./lib/ce/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Java\sonarqube-6.5\temp\sq-process5600636178435563484properties
+2017.10.30 16:22:12 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2017.10.30 16:22:12 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2017.10.31 14:06:05 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Java\sonarqube-6.5\temp
+2017.10.31 14:06:06 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[es]: C:\Program Files\Java\jre1.8.0_151\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djna.nosys=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\Java\sonarqube-6.5\temp\sq-process588585992347357352properties
+2017.10.31 14:06:38 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2017.10.31 14:06:38 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[web]: C:\Program Files\Java\jre1.8.0_151\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Java\sonarqube-6.5\temp\sq-process6374332458675189445properties
+2017.10.31 14:07:00 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2017.10.31 14:07:00 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[ce]: C:\Program Files\Java\jre1.8.0_151\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;./lib/ce/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Java\sonarqube-6.5\temp\sq-process5196304704266470834properties
+2017.10.31 14:07:09 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2017.10.31 14:07:09 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2017.11.07 16:11:07 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Java\sonarqube-6.5\temp
+2017.11.07 16:11:08 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[es]: C:\Program Files\Java\jre1.8.0_151\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djna.nosys=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\Java\sonarqube-6.5\temp\sq-process2486956216416273923properties
+2017.11.07 16:12:31 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2017.11.07 16:12:31 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[web]: C:\Program Files\Java\jre1.8.0_151\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Java\sonarqube-6.5\temp\sq-process561018222020820381properties
+2017.11.07 16:13:05 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2017.11.07 16:13:05 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[ce]: C:\Program Files\Java\jre1.8.0_151\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;./lib/ce/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Java\sonarqube-6.5\temp\sq-process5320314192774853732properties
+2017.11.07 16:13:24 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2017.11.07 16:13:24 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2017.11.12 18:50:49 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Java\sonarqube-6.5\temp
+2017.11.12 18:50:49 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[es]: C:\Program Files\Java\jre1.8.0_151\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djna.nosys=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\Java\sonarqube-6.5\temp\sq-process4946037089696714414properties
+2017.11.12 18:51:03 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2017.11.12 18:51:03 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[web]: C:\Program Files\Java\jre1.8.0_151\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Java\sonarqube-6.5\temp\sq-process4867409649917962358properties
+2017.11.12 18:51:28 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2017.11.12 18:51:28 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[ce]: C:\Program Files\Java\jre1.8.0_151\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Java\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;./lib/ce/*;C:\Java\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Java\sonarqube-6.5\temp\sq-process7585436804090883556properties
+2017.11.12 18:51:35 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2017.11.12 18:51:35 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+
+WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+          The file is located on the path at the following location but
+          could not be loaded:
+            C:\JenkinsSoftwares\sonarqube-6.5\bin\windows-x86-64\.\lib\wrapper.dll
+          Please verify that the file is readable by the current user
+          and that the file has not been corrupted in any way.
+          One common cause of this problem is running a 32-bit version
+          of the Wrapper with a 64-bit version of Java, or vica versa.
+          This is a 32-bit JVM.
+          Reported cause:
+            C:\JenkinsSoftwares\sonarqube-6.5\bin\windows-x86-64\lib\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+          System signals will not be handled correctly.
+
+2019.09.25 15:45:24 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\JenkinsSoftwares\sonarqube-6.5\temp
+2019.09.25 15:45:24 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[es]: C:\Program Files (x86)\Java\jre1.8.0_221\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djna.nosys=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\JenkinsSoftwares\sonarqube-6.5\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\JenkinsSoftwares\sonarqube-6.5\temp\sq-process3497329021024608577properties
+2019.09.25 15:45:35 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.09.25 15:45:35 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[web]: C:\Program Files (x86)\Java\jre1.8.0_221\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\JenkinsSoftwares\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;C:\JenkinsSoftwares\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\JenkinsSoftwares\sonarqube-6.5\temp\sq-process2429848262461708804properties
+2019.09.25 15:45:49 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2019.09.25 15:45:49 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[ce]: C:\Program Files (x86)\Java\jre1.8.0_221\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\JenkinsSoftwares\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;./lib/ce/*;C:\JenkinsSoftwares\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\JenkinsSoftwares\sonarqube-6.5\temp\sq-process4844567547851116134properties
+2019.09.25 15:45:54 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2019.09.25 15:45:54 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+CTRL-C trapped.  Shutting down.
+2019.09.25 17:53:00 INFO  app[][o.s.a.SchedulerImpl] Stopping SonarQube
+2019.09.25 17:53:01 INFO  app[][o.s.a.SchedulerImpl] Process [ce] is stopped
+2019.09.25 17:53:03 INFO  app[][o.s.a.SchedulerImpl] Process [web] is stopped
+2019.09.25 17:53:04 INFO  app[][o.s.a.SchedulerImpl] Process [es] is stopped
+2019.09.25 17:53:04 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+
+WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+          The file is located on the path at the following location but
+          could not be loaded:
+            C:\JenkinsSoftwares\sonarqube-6.5\bin\windows-x86-64\.\lib\wrapper.dll
+          Please verify that the file is readable by the current user
+          and that the file has not been corrupted in any way.
+          One common cause of this problem is running a 32-bit version
+          of the Wrapper with a 64-bit version of Java, or vica versa.
+          This is a 32-bit JVM.
+          Reported cause:
+            C:\JenkinsSoftwares\sonarqube-6.5\bin\windows-x86-64\lib\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+          System signals will not be handled correctly.
+
+2019.09.25 22:50:36 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\JenkinsSoftwares\sonarqube-6.5\temp
+2019.09.25 22:50:37 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[es]: C:\Program Files (x86)\Java\jre1.8.0_221\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djna.nosys=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\JenkinsSoftwares\sonarqube-6.5\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\JenkinsSoftwares\sonarqube-6.5\temp\sq-process5973681604623299272properties
+2019.09.25 22:50:53 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.09.25 22:50:53 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[web]: C:\Program Files (x86)\Java\jre1.8.0_221\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\JenkinsSoftwares\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;C:\JenkinsSoftwares\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\JenkinsSoftwares\sonarqube-6.5\temp\sq-process6502941021142077129properties
+2019.09.25 22:51:10 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2019.09.25 22:51:10 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[ce]: C:\Program Files (x86)\Java\jre1.8.0_221\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\JenkinsSoftwares\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;./lib/ce/*;C:\JenkinsSoftwares\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\JenkinsSoftwares\sonarqube-6.5\temp\sq-process9000884929867010795properties
+2019.09.25 22:51:17 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2019.09.25 22:51:17 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+CTRL-C trapped.  Shutting down.
+2019.09.25 22:55:52 INFO  app[][o.s.a.SchedulerImpl] Stopping SonarQube
+2019.09.25 22:55:54 INFO  app[][o.s.a.SchedulerImpl] Process [ce] is stopped
+2019.09.25 22:55:56 INFO  app[][o.s.a.SchedulerImpl] Process [web] is stopped
+2019.09.25 22:55:56 INFO  app[][o.s.a.SchedulerImpl] Process [es] is stopped
+2019.09.25 22:55:56 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+
+WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+          The file is located on the path at the following location but
+          could not be loaded:
+            C:\Jenkins 9th Jan\sonarqube-6.5\bin\windows-x86-64\.\lib\wrapper.dll
+          Please verify that the file is readable by the current user
+          and that the file has not been corrupted in any way.
+          One common cause of this problem is running a 32-bit version
+          of the Wrapper with a 64-bit version of Java, or vica versa.
+          This is a 32-bit JVM.
+          Reported cause:
+            C:\Jenkins 9th Jan\sonarqube-6.5\bin\windows-x86-64\lib\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+          System signals will not be handled correctly.
+
+2020.01.09 15:14:24 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory C:\Jenkins 9th Jan\sonarqube-6.5\temp
+2020.01.09 15:14:24 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[es]: C:\Program Files (x86)\Java\jre1.8.0_231\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djna.nosys=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Jenkins 9th Jan\sonarqube-6.5\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\Jenkins 9th Jan\sonarqube-6.5\temp\sq-process5746901567097610950properties
+2020.01.09 15:14:57 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2020.01.09 15:14:57 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[web]: C:\Program Files (x86)\Java\jre1.8.0_231\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Jenkins 9th Jan\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;C:\Jenkins 9th Jan\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Jenkins 9th Jan\sonarqube-6.5\temp\sq-process3906860164737843708properties
+2020.01.09 15:15:45 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2020.01.09 15:15:45 INFO  app[][o.s.a.p.JavaProcessLauncherImpl] Launch process[ce]: C:\Program Files (x86)\Java\jre1.8.0_231\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Jenkins 9th Jan\sonarqube-6.5\temp -cp ./lib/common/*;./lib/server/*;./lib/ce/*;C:\Jenkins 9th Jan\sonarqube-6.5\lib\jdbc\h2\h2-1.3.176.jar org.sonar.ce.app.CeServer C:\Jenkins 9th Jan\sonarqube-6.5\temp\sq-process6887010716821949756properties
+2020.01.09 15:15:54 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2020.01.09 15:15:54 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
